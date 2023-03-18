@@ -9,9 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/node": "18.15.3",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "gsap": "^3.11.5",
+    "lil-gui": "^0.18.1",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "three": "^0.150.1"
+    "three": "^0.150.1",
+    "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@types/three": "^0.149.0"
   }
 }
