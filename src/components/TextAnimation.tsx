@@ -14,7 +14,7 @@ const TextAnimation = () => {
     const gui = new dat.GUI()
 
     // Canvas
-    const canvas = document.querySelector('.webgl')
+    const canvas:HTMLElement = document.querySelector('.webgl') as HTMLElement
 
     // Scene
     const scene = new THREE.Scene()
