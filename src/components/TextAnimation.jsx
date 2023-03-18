@@ -2,7 +2,9 @@ import React from 'react'
 
 const TextAnimation = () => {
   return (
-    <div>TextAnimation</div>
+    <section className='text-animation'>
+        <canvas></canvas>
+    </section>
   )
 }
 
